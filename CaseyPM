@@ -1,0 +1,95 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casey Property Management</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background: #1e3a8a;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #163170;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: #e2e8f0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #fff;
+    }
+    .property-card {
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      background: #fafafa;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e3a8a;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Casey Property Management</h1>
+    <p>Reliable • Professional • Affordable Rentals</p>
+  </header>  <nav>
+    <a href="#about">About</a>
+    <a href="#properties">Properties</a>
+    <a href="#contact">Contact</a>
+  </nav>  <section class="hero">
+    <h2>Your Next Home Awaits</h2>
+    <p>Explore quality rental properties managed with care.</p>
+  </section>  <section id="about" class="container">
+    <h2>About Us</h2>
+    <p>At Casey Property Management, we provide clean, comfortable, and affordable rental properties. We focus on great communication and hassle-free renting so tenants feel at home and owners feel confident in their investments.</p>
+  </section>  <section id="properties" class="container">
+    <h2>Available Properties</h2><div class="property-card">
+  <h3>2 Bedroom Apartment</h3>
+  <p>Open floor plan · Newly renovated · Quiet neighborhood</p>
+  <p><strong>Rent:</strong> $1,000/month</p>
+  <button>Apply Now</button>
+</div>
+
+<div class="property-card">
+  <h3>3 Bedroom Home</h3>
+  <p>Spacious yard · Family-friendly area · Fresh paint</p>
+  <p><strong>Rent:</strong> $1,400/month</p>
+  <button>Apply Now</button>
+</div>
+
+  </section>  <section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <p>Email: caseyproperties@example.com</p>
+    <p>Phone: 205-990-0337</p>
+  </section>  <footer>
+    <p>© 2025 Casey Property Management. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
